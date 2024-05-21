@@ -26,7 +26,7 @@ def create_database():
     conn = psycopg2.connect(
         dbname="postgres",
         user="postgres",
-        password="@Nairobi2003",
+        password="enter your password here",
         host="localhost",
         port=5432
     )
@@ -51,7 +51,7 @@ def load_to_postgres():
     conn = psycopg2.connect(
         dbname="database_db",
         user="postgres",
-        password="@Nairobi2003",
+        password="enter your password here",
         host="localhost",
         port=5432
     )
